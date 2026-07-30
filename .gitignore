@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Debug/test scripts (not part of benchmark)
+test_*.py
+analyze_*.py
+check_progress.py
+list_*.py
+search_*.py
+troubleshoot.py
+run_experiment.bat
+evaluation_dataset_small.csv
+
+# Old/stale results
+data/results.csv
+data/run_*.txt
+data/results_meta_llama-3.3-70b-instruct.csv
+data/results_moonshotai_kimi-k2.6.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

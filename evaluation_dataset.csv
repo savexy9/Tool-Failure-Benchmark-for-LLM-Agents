@@ -1,0 +1,61 @@
+id,tool,question,tool_input,ground_truth,difficulty
+1,calculator,What is 45 + 78?,45 + 78,123,easy
+2,calculator,What is 256 - 89?,256 - 89,167,easy
+3,calculator,What is 17 times 13?,17 * 13,221,easy
+4,calculator,What is 144 divided by 12?,144 / 12,12,easy
+5,calculator,What is 3 times the sum of 4 and 5?,3 * (4 + 5),27,easy
+6,calculator,What is 100 divided by 4 plus 15?,100 / 4 + 15,40,easy
+7,calculator,What is 2.5 times 4.8?,2.5 * 4.8,12.0,easy
+8,calculator,What is 15 percent of 240?,240 * 0.15,36,medium
+9,calculator,What is 2 to the power of 8?,2 ** 8,256,medium
+10,calculator,What is the sum of 12 and 8 multiplied by the difference of 15 and 7?,(12 + 8) * (15 - 7),160,medium
+11,calculator,What is 144 divided by the product of 3 and 4?,144 / (3 * 4),12,medium
+12,calculator,What is the difference of 30 and 12 divided by the sum of 2 and 7?,(30 - 12) / (2 + 7),2,medium
+13,calculator,What is 2 to the power of 10?,2 ** 10,1024,medium
+14,calculator,What is 12.5 percent of 800?,800 * 0.125,100,medium
+15,calculator,What is 3.14 times 25?,3.14 * 25,78.5,hard
+16,calculator,What is three-quarters of 560?,560 * 3 / 4,420,hard
+17,calculator,What is 25 times 48?,25 * 48,1200,hard
+18,calculator,What is the square of the sum of 15 and 5?,(15 + 5) ** 2,400,hard
+19,calculator,What is 2 to the power of 16?,2 ** 16,65536,hard
+20,calculator,What is 3 times the quantity 2 plus 4 times the sum of 1 and 2?,3 * (2 + 4 * (1 + 2)),42,hard
+21,lookup,Who invented the World Wide Web?,Tim Berners-Lee,Tim Berners-Lee,easy
+22,lookup,What planet is known as the Red Planet?,Mars,Mars,easy
+23,lookup,What is the chemical formula for water?,Water,H2O,easy
+24,lookup,Who wrote the play Romeo and Juliet?,Romeo and Juliet,William Shakespeare,easy
+25,lookup,What is the capital of Japan?,Tokyo,Tokyo,easy
+26,lookup,Who painted the Mona Lisa?,Mona Lisa,Leonardo da Vinci,easy
+27,lookup,What is the largest ocean on Earth?,Pacific Ocean,Pacific Ocean,easy
+28,lookup,In what year was the Eiffel Tower completed?,Eiffel Tower,1889,medium
+29,lookup,What is the speed of light in vacuum in meters per second?,Speed of light,299792458 m/s,medium
+30,lookup,What did Marie Curie discover?,Marie Curie,polonium and radium,medium
+31,lookup,Who invented the Richter magnitude scale?,Richter magnitude scale,Charles F. Richter,medium
+32,lookup,What is the molecular structure of DNA?,DNA,double helix,medium
+33,lookup,In what year did the French Revolution begin?,French Revolution,1789,medium
+34,lookup,What is the chemical formula for table salt?,Sodium chloride,NaCl,medium
+35,lookup,What is the Fibonacci sequence?,Fibonacci number,a sequence where each number is the sum of the two preceding ones,hard
+36,lookup,What is a Turing machine?,Turing machine,a mathematical model of computation,hard
+37,lookup,What is the Rosetta Stone?,Rosetta Stone,an inscribed stone slab key to deciphering Egyptian hieroglyphs,hard
+38,lookup,Who created the first periodic table of elements?,Periodic table,Dmitri Mendeleev,hard
+39,lookup,What is standard gravity in meters per second squared?,Standard gravity,9.80665 m/s²,hard
+40,lookup,What is the speed of sound in air at 20 degrees Celsius?,Speed of sound,343 m/s,hard
+41,converter,Convert 100 degrees Fahrenheit to Celsius,100 F,37.7778,easy
+42,converter,Convert 0 degrees Celsius to Fahrenheit,0 C,32,easy
+43,converter,Convert 5 miles to kilometers,5 mi,8.04672,easy
+44,converter,Convert 10 pounds to kilograms,10 lb,4.53592,easy
+45,converter,Convert 100 centimeters to inches,100 cm,39.3701,easy
+46,converter,Convert 1 US gallon to liters,1 gal,3.78541,easy
+47,converter,Convert 32 ounces to grams,32 oz,907.185,easy
+48,converter,Convert 200 degrees Fahrenheit to Celsius,200 F,93.3333,medium
+49,converter,Convert 37 degrees Celsius to Fahrenheit,37 C,98.6,medium
+50,converter,Convert 2.5 miles to kilometers,2.5 mi,4.02336,medium
+51,converter,Convert 150 pounds to kilograms,150 lb,68.0389,medium
+52,converter,Convert 72 degrees Fahrenheit to Celsius,72 F,22.2222,medium
+53,converter,Convert 1000 meters to miles,1000 m,0.621371,medium
+54,converter,Convert 5000 grams to pounds,5000 g,11.0231,medium
+55,converter,Convert 300 Kelvin to Fahrenheit,300 K,80.33,hard
+56,converter,Convert 98.6 degrees Fahrenheit to Celsius,98.6 F,37,hard
+57,converter,Convert 40 degrees Celsius to Fahrenheit,40 C,104,hard
+58,converter,Convert 0 degrees Fahrenheit to Celsius,0 F,-17.7778,hard
+59,converter,Convert 5 hectares to acres,5 ha,12.3553,hard
+60,converter,Convert 300 Kelvin to Rankine,300 K,540,hard
